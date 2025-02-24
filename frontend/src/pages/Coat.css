@@ -1,0 +1,118 @@
+#root{
+    /* width: 1000%; */
+     margin:0 auto;
+    
+     text-align: center;
+     /* background: linear-gradient(135deg, #c37d52, #e0c8c0, #6d6ca3); */
+    
+   }
+   .users{
+     max-width: 100%;
+     margin: auto;
+     display: flex;
+    
+   
+   }.users2{
+     max-width: 100%;
+     margin: auto;
+     display: flex;
+     
+   
+   }
+   .users3{
+     max-width: 100%;
+     margin: auto;
+     display: flex;
+     
+   
+   }
+   .users4{
+     max-width: 100%;
+     margin: auto;
+     display: flex;
+     
+   
+   }
+   .users .wrap {
+   align-items:center;
+   padding: 10px;
+   margin-right: 10px;
+   margin-bottom: auto;
+   width: 100%;
+   box-shadow: rgba(76, 75, 75, 0.2)0px 2px 8px 0px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+   overflow: hidden;
+   
+   }.users2 .wrap {
+   
+     align-items:center;
+     padding: 10px;
+     margin-right: 10px;
+     margin-bottom: auto;
+     width: 100%;
+     box-shadow: rgba(76, 75, 75, 0.2)0px 2px 8px 0px;
+     margin-bottom: 20px;
+     border-radius: 20px;
+     overflow: hidden;
+     }
+     .users3 .wrap {
+   
+       align-items:center;
+       padding: 10px;
+       margin-right: 10px;
+       margin-bottom: auto;
+       width: 100%;
+       box-shadow: rgba(76, 75, 75, 0.2)0px 2px 8px 0px;
+       margin-bottom: 20px;
+       border-radius: 20px;
+       overflow: hidden;
+       }
+       .users4 .wrap {
+   
+         align-items:center;
+         padding: 10px;
+         margin-right: 10px;
+         margin-bottom: auto;
+         width: 100%;
+         box-shadow: rgba(76, 75, 75, 0.2)0px 2px 8px 0px;
+         margin-bottom: 20px;
+         border-radius: 20px;
+         overflow: hidden;
+         }
+   .wrap .img-wrap{
+     width: 250px;
+     height: 350px;
+     border-radius: 10px;
+     overflow: hidden;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .img-wrap img{
+     width: 100%;
+     object-fit:cover;
+     height: 100%;
+     border-radius: 10px;
+   
+   }
+   .desc{
+     
+     text-align: center;
+     border-radius: 10px;
+     background-color: rgb(245, 249, 252);
+   
+   }
+   .name{
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: capitalize;
+     font-family: Roboto;
+     margin-bottom: 0;
+     margin-top: 5px;
+   }
+   .description{
+     margin: 8px 0 0 0;
+     font-family: Roboto;
+   
+   }
