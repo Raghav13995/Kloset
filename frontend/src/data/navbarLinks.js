@@ -3,10 +3,7 @@ export const NavbarLinks = [
       title: "Home",
       path: "/",
     },
-    {
-      title: "Rent With Style",
-      path: '/RentWithStyle',
-    },
+    
     {
       title: "About Us",
       path: "/About",

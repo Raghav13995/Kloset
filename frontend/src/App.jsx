@@ -7,7 +7,7 @@ import Coat from "./pages/Coat.jsx";
 import Shervani from "./pages/Shervani.jsx";
 import Frok from "./pages/Frok.jsx";
 import NavBar from "./Components/common/NavBar.jsx";
-
+import "./App.css";
 function App() {
   return <AppWithSplash />;
 }
@@ -20,22 +20,19 @@ const AppWithSplash = () => {
     setShowSplash(true);
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 1000);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
   return (
-    <div>
+    <div className="w-screen min-h-screen flex flex-col">
       {/* Show Splash Screen First */}
       {showSplash ? (
         <Splash />
       ) : (
         <>
-          {/* NavBar appears only after the Splash disappears */}
           <NavBar />
-
-          {/* Routes after Splash */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

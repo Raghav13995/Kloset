@@ -12,7 +12,14 @@ const Coat = () => {
 
   return (
     <>
-      <Clothcomponent users={users3}/>
+    
+      <div className="flex flex-col justify-center items-center">
+        <div className='w-11/12 max-w-[1400px]'>
+          <Clothcomponent users={users3}/>
+        </div>
+      
+      </div>
+      
     </>
   );
 };
