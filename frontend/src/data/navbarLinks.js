@@ -13,8 +13,8 @@ export const NavbarLinks = [
       path: "/Contact",
     },
     {
-        title: "Rent For Event",
-        path: "/RentForEvent",  
+        title: "Be A Renter",
+        path: "/Be-A-Renter",  
     },
     {
         title: "City",
